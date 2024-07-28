@@ -1,0 +1,10 @@
+#root {
+  overflow-x: hidden;
+}
+
+.fixed-size {
+  width: 100%; /* or a fixed value, e.g., 200px */
+  height: 300px; /* or your preferred height */
+  object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+}
+
